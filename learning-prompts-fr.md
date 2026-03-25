@@ -7,6 +7,7 @@ Voici une série de prompts et un guide pas à pas pour vous aider à mener une 
 - Principaux enseignements et surprises : 10 minutes
 - Auto-évaluation : 1 heure
 - Apprentissage socratique : 1 à 2 heures
+- **Total:** entre 15 minutes et 5 heures, selon la quantité de contenu que vous avez et la profondeur que vous souhaitez atteindre.
 
 ## Point de départ
 

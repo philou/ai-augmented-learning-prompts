@@ -7,6 +7,7 @@ Here are some prompts and a walkthrough to help you run an AI-augmented, inverte
 - Main takeaways and surprises: 10 minutes
 - Self-assessment: 1 hour
 - Socratic learning: 1 to 2 hours.
+- **Total:** between 15 minutes to 5 hours, depending on how much content you have and how deep you want to go.
 
 ## Starting point
 

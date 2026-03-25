@@ -2,6 +2,14 @@
 
 This repository contains ready-to-use prompts to run AI-augmented, inverted-pedagogy-style learning sessions.
 
+## Why
+
+- It's **Faster** because you only study what you need to know.
+- It's **Just-in-time**. There is so much information out there that we cannot learn everything just in case. This approach allows you to defer learning until you really need it, focusing on the most relevant content, across various sources.
+- It's **More fun and engaging** because it uses active learning techniques and Socratic questioning.
+- It's **personalized** because it adapts to your learning style, personality, tastes, background, and needs.
+- It's **More effective** because it's active learning and connects sources, helping you make neural connections.
+
 ## What this means
 
 - **AI-augmented**: learners use an LLM through structured prompts inspired by the [Accelerate Your Learning with ChatGPT MOOC](https://www.coursera.org/learn/learning-chatgpt).
@@ -33,6 +41,7 @@ Optional learning supports:
 - Main takeaways and surprises: about 10 minutes
 - Self-assessment: about 1 hour
 - Socratic learning: 1 to 2 hours
+- **Total:** between 15 minutes to 5 hours, depending on how much content you have and how deep you want to go.
 
 ## Full walkthrough
 
