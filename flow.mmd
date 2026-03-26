@@ -1,0 +1,52 @@
+flowchart TD
+    Start([Start]) --> Init[Rough Goal & Personal Context]
+    Init --> InitPrompt[Initial Context Prompt]
+
+    InitPrompt --> KB{Known Content?}
+
+    %% Knowledge Base Building
+    KB -->|No or Partial| Search[Search Content Prompt]
+    Search --> Curate[Review, Classify, Verify Access]
+    Curate --> KBReady
+
+    KB -->|Yes| Upload[Check Context & Upload]
+    Upload --> KBReady
+
+    KBReady[Knowledge Base Ready Prompt] --> Refine1[Refine Learning Goal]
+
+    %% Optional Exploration
+    Refine1 --> Explore{Optional: 80/20 Exploration?}
+    Explore -.->|Yes| Insights[Top 5 Insights & Surprises]
+    Insights -.-> Refine2[Notes & Refine Goal]
+    Refine2 -.-> Assessment
+
+    Explore -->|No| Assessment[Self-Assessment Phase]
+
+    %% Self Assessment
+    Assessment --> AssSetup[Socratic Teacher & Validation Setup]
+    AssSetup --> AssQ[10 Assessment Questions with Perfection Game]
+    AssQ --> AssSum[Summary of Gaps & Strengths]
+    AssSum --> DefineL[Fine-tune Detailed Goals]
+
+    %% Socratic Learning
+    DefineL --> Path[Socratic Learning Phase]
+    Path --> Priorities[Set Priorities & Create 4Cs Path]
+    Priorities --> Session[Run 4Cs Session: Connection, Concept, Practice, Conclusion]
+
+    %% Optional Tracking
+    Session -.-> Flashcards([Optional: Anki Flashcards])
+    Session -.-> Notes([Optional: Cornell Notes / Mind Maps])
+
+    %% Iteration and End
+    Session --> Next{More Sessions?}
+    Next -->|Yes| Session
+    Next -->|No| Continue{Continue Learning?}
+
+    Continue -.->|Extend Plan| Priorities
+    Continue -.->|Deliberate Practice| Practice[Practice Hard Topics]
+    Continue -.->|Free Chat| Deepen[Chat to Deepen Understanding]
+    Continue -->|Stop| Finish([End])
+    
+    %% Styling for optional blocks
+    classDef optional fill:#f9f9f9,stroke:#333,stroke-dasharray: 5 5,stroke-width:2px;
+    class Explore,Insights,Refine2,Flashcards,Notes,Practice,Deepen optional;
