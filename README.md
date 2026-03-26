@@ -24,6 +24,8 @@ Optional learning supports:
 
 ## How to use
 
+![Flow diagram representing the learning experience](flow.svg)
+
 1. Define a rough learning goal and add enough personal context for the AI to adapt the learning experience.
 2. Build a knowledge base using one of two paths:
 	- discover sources if you do not yet know what to study,
